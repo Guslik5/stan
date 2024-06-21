@@ -1,0 +1,49 @@
+* {
+    font-family: "Roboto Light";
+    font-size: 16px;
+    color: #3C3C3C;
+}
+header{
+    display: flex;
+    height: 108px;
+    justify-content: center;
+
+}
+
+.logo{
+    align-content: center;
+}
+
+.menu{
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    font-weight: bold;
+    list-style: none;
+    align-items: center;
+
+}
+
+.menu li{
+    display:inline-block;
+    border-left:1px solid #bbb;
+    padding:0 5% 0 5%;
+    white-space: nowrap;
+}
+.menu li a{
+    text-decoration: none;
+}
+
+li:first-child {
+    border:none;
+}
+
+.menu li a :hover {
+    color: #B52323;
+}
+
+
+
+
+
+

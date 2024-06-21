@@ -1,0 +1,13 @@
+{
+  "name": "stan",
+  "version": "1.0.0",
+  "description": "Project for Stan company",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Gus",
+  "license": "ISC",
+  "git": "https://github.com/Guslik5/stan.git"
+
+}
