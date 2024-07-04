@@ -1,0 +1,19 @@
+.maintext{
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.AboutCompanyText{
+    color: #686868;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.secondaryText{
+    color: #3C3C3C;
+    font-size: medium;
+}

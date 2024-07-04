@@ -42,7 +42,11 @@ li:first-child {
     color: #B52323;
 }
 
-
+.lineHeader{
+    width: 100%;
+    height: 1px;
+    border-bottom: #CECECE solid;
+}
 
 
 
