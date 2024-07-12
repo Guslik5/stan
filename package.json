@@ -1,13 +1,19 @@
 {
   "name": "stan",
-  "version": "1.0.0",
-  "description": "Project for Stan company",
+  "version": "10.7.0",
+  "description": "stan project",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "Gus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guslik5/stan.git"
+  },
+  "author": "Guslik",
   "license": "ISC",
-  "git": "https://github.com/Guslik5/stan.git"
-
+  "bugs": {
+    "url": "https://github.com/Guslik5/stan/issues"
+  },
+  "homepage": "https://github.com/Guslik5/stan#readme"
 }

@@ -5,7 +5,6 @@
 }
 header{
     display: flex;
-    height: 108px;
     justify-content: center;
 
 }
@@ -48,8 +47,11 @@ li:first-child {
     border-bottom: #CECECE solid;
 }
 
+@media (max-width: 1300px) {
+    .menu li{
 
-
+    }
+}
 
 
 

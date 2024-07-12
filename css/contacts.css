@@ -1,0 +1,60 @@
+.containerMapAndInfo{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 20px;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.heading{
+    display: flex;
+    font-size: 2em;
+    font-weight: bolder;
+    justify-content: center;
+    margin: 20px 10px 30px;
+}
+
+.containerMapAndInfo p{
+    color: #686868;
+}
+
+.leftBlock{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightBlock iframe{
+    border-radius: 30px;
+}
+
+
+.firstLeftBlock{
+    margin: 0 30px 0 10px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.secondLeftBlock{
+    margin: 0 30px 0 10px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.bigText_ContainerMapInfo{
+    font-weight: bolder;
+    font-size: 1.75em;
+    margin-bottom: 30px;
+}
+
+.smallText_ContainerMapInfo{
+    font-size: 0.75em;
+}
+
+
