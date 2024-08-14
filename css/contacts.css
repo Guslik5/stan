@@ -57,6 +57,148 @@
 .smallText_ContainerMapInfo{
     font-size: 0.75em;
 }
+.iphone {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.order {
+    position: absolute;
+    bottom: 150px;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #FAC031;
+    font-size: x-large;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.order:hover {
+    background: #B52323;
+}
+
+.container {
+    position: absolute;
+    width: 300px;
+    font-size: 1.2em;
+}
+
+.left{
+    margin-left: -800px;
+    text-align: right;
+}
+
+.right{
+    margin-right: -800px;
+    text-align: left;
+}
+
+.sales{
+    top: 15%;
+}
+
+.accounting{
+    top: 55%;
+}
+
+.supply{
+    top: 35%;
+}
+.questions{
+    top: 75%;
+}
+
+.main{
+    color: #B52323;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.secondary .head{
+    color: #A1A0A0;
+}
+
+.backgroundGray{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: auto;
+    height: 425px;
+    width: 75%;
+    background-color: #EAEAEA;
+    border-radius: 30px 30px 0 0;
+}
+
+.workTime{
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 200px;
+    background-color: #B52323;
+    height: 280px;
+    width: 75%;
+    text-align: center;
+    border-radius: 0 0 30px 30px;
+}
+
+.containerTimeBigText{
+    font-size: 2em;
+    font-weight: bolder;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.containerTime{
+    display: flex;
+    justify-content: space-between;
+    height: 220px;
+    align-items: center;
+    position: relative;
+}
+
+.textTime{
+    color: #ffffff;
+    text-align: left;
+}
+
+.office{
+    margin-left: 100px;
+}
+
+.warehouse{
+    margin-right: 100px;
+}
+
+.mainTextTime{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.TimeTextWork{
+    font-size: 1.3em;
+}
+
+.line{
+    position: absolute;
+    content: "";
+    height: 70%;
+    border: 2px solid #ffffff;
+    top: 50%; /* Центрируем по вертикали */
+    transform: translateY(-50%); /* Дополнительное центрирование */
+    margin-left: 49.5%;
+}
+
+@media (max-width: 900px) {
+    .line{
+        display: none;
+    }
+}
+
+
 
 
 
