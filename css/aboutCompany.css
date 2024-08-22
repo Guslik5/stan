@@ -1,19 +1,133 @@
 .maintext{
-    width: 350px;
+    width: 500px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
 }
 
 .AboutCompanyText{
     color: #686868;
-    font-size: x-large;
+    font-size: 2em;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .secondaryText{
     color: #3C3C3C;
-    font-size: medium;
+    font-size: 1.5em;
 }
+
+.blockActivity{
+    width: 80%;
+    text-align: center;
+    margin: 100px auto;
+    background: #B52323;
+    border-radius: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0, 0.4);
+}
+
+.blockActivity_main{
+    font-size: 2em;
+    color: #fff;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.blockActivity_list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.blockActivity_list-item{
+    color: #ffffff;
+    height: 130px;
+    width: 200px;
+    font-size: 1.4em;
+    border-left:2px solid #bbb;
+    padding: 1% 5% 1% 5%;
+}
+
+.blockActivity_list-item:first-child {
+    border:none;
+}
+
+
+.blockInfo{
+    margin-left: 400px;
+}
+
+.blockInfo_main{
+    font-size: 2em;
+    font-weight: bolder;
+    color: #B52323;
+    margin: 30px 0;
+}
+
+.blockInfo_secondary{
+    font-size: 1.3em;
+    margin: 30px 0;
+}
+
+.blockPurpose{
+    width: 80%;
+    height: 250px;
+    background: #EEEEEE;
+    margin:  50px auto 150px;
+    border-radius: 15px;
+}
+
+.blockPurpose_main{
+    font-size: 2em;
+    font-weight: bolder;
+    color: #515151;
+    padding: 30px 100px;
+}
+
+.blockPurpose_secondary{
+
+    margin-left: 150px;
+    padding: 5px 30px;
+    border-left: 1px solid #B52323;
+}
+
+.blockPurpose_secondary-item{
+    font-size: 1.3em;
+}
+
+.blockImage{
+    position: relative;
+    left: 50%;
+    bottom: 100px;
+    width: 633px;
+    background: #3C3C3C;
+    border-radius: 30px;
+}
+
+.blockImage_Text{
+    position: relative;
+    bottom: 100px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.blockImage_Text p{
+    margin-bottom: 30px;
+    color: white;
+}
+
+.blockSince2015{
+    width: 576px;
+    height: 433px;
+    position: absolute;
+    top: 50px;
+    right: 550px;
+    /*
+    background: ;
+    border: 1px solid rgba(linear-gradient(to bottom right, #FFB7B7 0%, #FFFFFF 100%));
+    */
+    border-radius: 30px;
+    overflow: hidden;
+}
+
