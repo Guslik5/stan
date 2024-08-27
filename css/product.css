@@ -123,6 +123,125 @@ input:checked + label span.Lub {
     color: #fff;
 }
 
+.hidden {
+    display: none;
+}
+
+#content {
+    margin-top: 20px;
+}
+
+.grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 354px 354px 354px;
+    grid-template-rows: 355px 355px 355px 355px 355px 355px;
+    grid-template-areas:
+        "a b c"
+        "a d  e"
+        "f g e"
+        "h i j"
+        "k l m"
+        "n o p";
+
+}
+
+.lubricants>button{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.lubricants{
+    background: #bbbbbb;
+    border: 1px solid black;
+    position: relative;
+}
+
+#lubricants{
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.lubricants>p{
+    color: white;
+    font-size: 1.7em;
+    top: 30px;
+    left: 30px;
+}
+
+.lubricants_general-purpose{
+    grid-area: a;
+    background: url("../images/ProductCategoryLubricants/lubricants_general-purpose.png") no-repeat;
+}
+
+.lubricants_industrial{
+    grid-area: b;
+}
+
+.lubricants_railway{
+    grid-area: c;
+}
+
+.lubricants_HEAT-RESISTANT{
+    grid-area: d;
+}
+
+.lubricants_CONSERVATION{
+    grid-area: e;
+}
+
+.lubricants_THREADED-SEALING{
+    grid-area: f;
+}
+
+.lubricants_LOW-TEMPERATURE{
+    grid-area: g;
+}
+
+.lubricants_Electrically-conductive{
+    grid-area: h;
+}
+
+.lubricants_SPECIAL{
+    grid-area: i;
+}
+
+.lubricants_STAN{
+    grid-area: j;
+}
+
+.lubricants_PRE-PRODUCTION{
+    grid-area: k;
+}
+
+.lubricants_GEARBOXES{
+    grid-area: l;
+}
+
+.lubricants_INSTRUMENT-PANELS{
+    grid-area: m;
+}
+
+.lubricants_marine{
+    grid-area: n;
+}
+
+.lubricants_Antifriction-multi-purpose{
+    grid-area: o;
+}
+
+.lubricants_CARS{
+    grid-area: p;
+}
+
+
+
+
+
+
+
+
 
 
 
