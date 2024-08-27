@@ -154,13 +154,13 @@ input:checked + label span.Lub {
 
 .lubricants{
     background: #bbbbbb;
-    border: 1px solid black;
     position: relative;
 }
 
 #lubricants{
     border-radius: 30px;
     overflow: hidden;
+    margin-bottom: 330px;
 }
 
 .lubricants>p{
@@ -182,63 +182,77 @@ input:checked + label span.Lub {
 
 .lubricants_industrial{
     grid-area: b;
-    background: url("../images/ProductCategoryLubricants/lubricants_industrial.png");
+    background: url("../images/ProductCategoryLubricants/lubricants_industrial.png") no-repeat;
 }
 
 .lubricants_railway{
     grid-area: c;
+    background: url("../images/ProductCategoryLubricants/lubricants_railway.png") no-repeat;
 }
 
 .lubricants_HEAT-RESISTANT{
     grid-area: d;
+    background: url("../images/ProductCategoryLubricants/lubricants_HEAT-RESISTANT.png") no-repeat;
 }
 
 .lubricants_CONSERVATION{
     grid-area: e;
+    background: url("../images/ProductCategoryLubricants/lubricants_CONSERVATION.png");
 }
 
 .lubricants_THREADED-SEALING{
     grid-area: f;
+    background: url("../images/ProductCategoryLubricants/lubricants_THREADED-SEALING.png");
 }
 
 .lubricants_LOW-TEMPERATURE{
     grid-area: g;
+    background: url("../images/ProductCategoryLubricants/lubricants_LOW-TEMPERATURE.png");
 }
 
 .lubricants_Electrically-conductive{
     grid-area: h;
+    background: url("../images/ProductCategoryLubricants/lubricants_Electrically-conductive.png");
 }
 
 .lubricants_SPECIAL{
     grid-area: i;
+    background: url("../images/ProductCategoryLubricants/lubricants_SPECIAL.png");
 }
 
 .lubricants_STAN{
     grid-area: j;
+    background: url("../images/ProductCategoryLubricants/lubricants_STAN.png");
 }
 
 .lubricants_PRE-PRODUCTION{
     grid-area: k;
+    background: url("../images/ProductCategoryLubricants/lubricants_PRE-PRODUCTION.png");
 }
 
 .lubricants_GEARBOXES{
     grid-area: l;
+    background: url("../images/ProductCategoryLubricants/lubricants_GEARBOXES.png");
 }
 
 .lubricants_INSTRUMENT-PANELS{
     grid-area: m;
+    background: #414143;
 }
 
 .lubricants_marine{
     grid-area: n;
+    background: url("../images/ProductCategoryLubricants/lubricants_marine.png");
 }
 
 .lubricants_Antifriction-multi-purpose{
     grid-area: o;
+    background: url("../images/ProductCategoryLubricants/lubricants_Antifriction-multi-purpose.png");
 }
 
 .lubricants_CARS{
     grid-area: p;
+    background: url("../images/ProductCategoryLubricants/lubricants_CARS.png");
 }
 
 
