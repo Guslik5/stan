@@ -164,10 +164,15 @@ input:checked + label span.Lub {
 }
 
 .lubricants>p{
-    color: white;
+    position: absolute;
     font-size: 1.7em;
     top: 30px;
     left: 30px;
+}
+
+.lubricants button{
+    position: relative;
+    z-index: 100;
 }
 
 .lubricants_general-purpose{
@@ -177,6 +182,7 @@ input:checked + label span.Lub {
 
 .lubricants_industrial{
     grid-area: b;
+    background: url("../images/ProductCategoryLubricants/lubricants_industrial.png");
 }
 
 .lubricants_railway{
