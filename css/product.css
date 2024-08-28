@@ -131,7 +131,7 @@ input:checked + label span.Lub {
     margin-top: 20px;
 }
 
-.grid{
+.gridLubricants{
     display: grid;
     justify-content: center;
     grid-template-columns: 354px 354px 354px;
@@ -143,34 +143,50 @@ input:checked + label span.Lub {
         "h i j"
         "k l m"
         "n o p";
-
 }
 
-.lubricants>button{
+.gridOil{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 354px 354px 354px;
+    grid-template-rows: 355px 355px 355px 355px;
+    grid-template-areas:
+        "a b c"
+        "a d  e"
+        "f g e"
+        "h h h"
+}
+
+.lubricants>button,
+.oils>button{
     width: 100%;
     height: 100%;
     opacity: 0;
 }
 
-.lubricants{
+.lubricants,
+.oils{
     background: #bbbbbb;
     position: relative;
 }
 
-#lubricants{
+#lubricants,
+#oils{
     border-radius: 30px;
     overflow: hidden;
     margin-bottom: 330px;
 }
 
-.lubricants>p{
+.lubricants>p,
+.oils>p{
     position: absolute;
     font-size: 1.7em;
     top: 30px;
     left: 30px;
 }
 
-.lubricants button{
+.lubricants button,
+.oils button{
     position: relative;
     z-index: 100;
 }
@@ -255,7 +271,45 @@ input:checked + label span.Lub {
     background: url("../images/ProductCategoryLubricants/lubricants_CARS.png");
 }
 
+.oils_industrial{
+    grid-area: a;
+        background: url("../images/ProductCategoryOils/oils_industrial.png");
+}
 
+.oils_Motor{
+    grid-area: b;
+        background: url("../images/ProductCategoryOils/oils_Motor.png");
+}
+
+.oils_AXIAL{
+    grid-area: c;
+        background: url("../images/ProductCategoryOils/oils_AXIAL.png");
+}
+
+.oils_HYDRAULIC{
+    grid-area: d;
+        background: url("../images/ProductCategoryOils/oils_HYDRAULIC.png");
+}
+
+.oils_TURBINE{
+    grid-area: e;
+        background: url("../images/ProductCategoryOils/oils_TURBINE.png");
+}
+
+.oils_COLD{
+    grid-area: f;
+        background: url("../images/ProductCategoryOils/oils_COLD.png");
+}
+
+.oils_Transmission{
+    grid-area: g;
+        background: url("../images/ProductCategoryOils/oils_Transmission.png");
+}
+
+.oils_STAN{
+    grid-area: h;
+        background: url("../images/ProductCategoryOils/oils_STAN.png");
+}
 
 
 

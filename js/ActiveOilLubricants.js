@@ -7,13 +7,13 @@ document.addEventListener('DOMContentLoaded', function() {
         if (checkbox.checked) {
             oilsContent.classList.add('hidden');
             lubricantsContent.classList.remove('hidden');
-            lubricantsContent.classList.add('grid');
-            oilsContent.classList.remove('grid');
+            lubricantsContent.classList.add('gridLubricants');
+            oilsContent.classList.remove('gridOil');
         } else {
             oilsContent.classList.remove('hidden');
             lubricantsContent.classList.add('hidden');
-            oilsContent.classList.add('grid');
-            lubricantsContent.classList.remove('grid');
+            oilsContent.classList.add('gridOil');
+            lubricantsContent.classList.remove('gridLubricants');
         }
     }
 
