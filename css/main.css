@@ -87,7 +87,8 @@ ul{
 }
 
 .blockListPartners{
-    height: 200px;
+    position: relative;
+    width: 875px;
     background-color: #F3F3F3;
     border-radius: 20px 20px 20px 20px / 200% 200%;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
@@ -98,7 +99,7 @@ ul{
     display: inline-flex;
     height: 130px;
     position: relative;
-    padding: 10px 40px;
+    padding: 10px 40px 50px;
 }
 
 .listPartners li{
@@ -107,13 +108,45 @@ ul{
 
 }
 
+.info_switch{
+    display: none;
+}
 
-div.arrowBottom {
-    width: 3vmin;
-    height: 3vmin;
-    position: absolute;
-    right: 48%;
+.hidden{
+    display: none;
+}
+
+.rotateTop{
+    transform: rotate(-45deg);
+}
+
+.rotateBottom{
     transform: rotate(135deg);
+}
+
+.listTextPartners{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 40px 50px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #C6C1C1;
+}
+
+.listTextPartners li{
+    margin: 0 6px;
+}
+
+
+.arrowBottom {
+    position:absolute;
+    bottom: 15px;
+    width: 2vmin;
+    height: 2vmin;
+    right: 48%;
+    z-index: 100;
+
 
 &::before {
      content: '';
