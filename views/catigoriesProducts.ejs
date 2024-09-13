@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/categories.css">
+</head>
+
+<body>
+<header>
+  <div class="logo"><img src="/images/icons/LogoStan.png" alt="logo"></div>
+  <ul class="menu">
+    <li><a href="/main.html" class="nav">Главная</a></li>
+    <li><a href="/products.html" class="nav">Товары</a></li>
+    <li><a href="/aboutСompany.html" class="nav">О компании</a></li>
+    <li><a href="/api/product/2" class="nav">Качество</a></li>
+    <li><a href="/basket.html" class="nav">Корзина</a></li>
+    <li><a href="/contacts.html" class="nav">Контакты</a></li>
+  </ul>
+</header>
+
+<div class="lineHeader">
+
+</div>
+<div class="mainText">
+  <% nameCategory.map(product => { %><%= product.name%><% })%>
+</div>
+<ul class="List-categories" >
+  <% products.map((product, index)=> { %>
+    <li class="List-categories_item" >
+      <div class="List-categories_item-name">
+        <%= product.name%>
+        <button class="List-categories_item-button" onclick="window.location=`/stan/product/${<%= product.id%>}`">Подробнее</button>
+      </div>
+    </li>
+  <% })%>
+</ul>
+
+<footer>
+  <img src="/images/icons/logoStanFooter.svg">
+</footer>
+</body>
+<script type="text/javascript" src="/js/backgroundProduct.js"></script>
+</html>

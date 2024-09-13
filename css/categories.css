@@ -1,0 +1,65 @@
+.List-categories{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    margin:  130px;
+}
+
+.List-categories_item{
+    width: 350px;
+    height: 150px;
+    margin: 7px 4px;
+    position: relative;
+}
+
+.List-categories_item-name{
+    color: white;
+    font-size: 1.4em;
+    top: 30px;
+    left: 40px;
+    position: absolute;
+}
+
+
+.List-categories_item-button{
+    position: absolute;
+    width: 150px;
+    top: 70px;
+    left: 150px;
+    background-color: #ffffff;
+    border: none;
+    color: #B52323;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.List-categories_item-button:hover{
+    background-color: #B52325;
+    color: #ffffff;
+    border: 1px solid black;
+}
+
+.mainText{
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 130px 20% 0;
+    color: #686868;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #585858;
+    margin-top: 30px;
+}
+
+footer img{
+    position: absolute;
+    bottom: 10%;
+    left: 47.5%;
+}

@@ -360,6 +360,7 @@ div.arrowLeftQualification {
     position: relative;
     font-size: 30px;
     font-weight: bolder;
+    padding-left: 50px;
     margin-top: 70px;
     margin-bottom: 30px;
     color: #3C3C3C;
@@ -369,7 +370,7 @@ div.arrowLeftQualification {
 .blockContacts{
     display: block;
     background-color:#B52323;
-    width: 60%;
+    width: 70%;
     min-width: 400px;
     border-radius: 30px;
     margin: 0 auto 80px;
@@ -383,6 +384,7 @@ div.arrowLeftQualification {
 }
 .blockContactsElem p{
     padding: 0 30px 0 30px;
+    font-size: 1.3em;
     color: white;
 }
 

@@ -7,35 +7,25 @@ class ProductController {
         res.json('ok')
     }
 
-    async getProduct(req, res){
+    async getProducts(req, res){
         const products = await db.query('SELECT * FROM products')
         res.json(products.rows)
     }
 
     async getOneCategoryProduct(req, res){
         const category_id = req.params.id
-        const products = await db.query('SELECT name FROM products WHERE category_id = $1', [category_id])
+        const products = await db.query('SELECT * FROM products WHERE category_id = $1', [category_id])
+        const nameCategory = await db.query('SELECT name FROM categories WHERE id = $1', [category_id])
+        console.log(nameCategory.rows)
         console.log(products.rows)
-        res.send(`
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-          <meta charset="UTF-8">
-          <title>Title</title>
-        </head>
-        <style>
-          .test{
-            background: #8C8C8C;
-          }
-        </style>
-        <body>
-        <div class="test">
-          ${products.rows.map(product => product.name).join('<br>')}
-        </div>
-        </body>
-        </html>
-        `
-        )
+        res.render('catigoriesProducts', {products: products.rows, nameCategory: nameCategory.rows})
+    }
+
+    async getProduct(req, res){
+        const product_id = req.params.id
+        const product = await db.query('SELECT * FROM products WHERE id = $1', [product_id])
+        console.log(product.rows)
+        res.render('product', {product: product.rows[0]})
     }
 }
 
