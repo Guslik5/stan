@@ -1,8 +1,136 @@
 
 .namePage{
-    margin-top: 100px;
+    margin: 100px 100px 30px;
     font-size: 3em;
     text-align: center;
     font-weight: bolder;
+
 }
+
+.order-inputs-menu{
+    margin: 10px;
+}
+
+.block-order{
+    display: flex;
+    justify-content: center;
+}
+
+.block-order_products-comment{
+
+    border-radius: 30px;
+}
+
+.comment{
+    background: #D8D8D8;
+    padding: 20px;
+    border-radius: 0  0 20px 20px;
+
+
+}
+
+.basket-product-item{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.block-results{
+    background: #616160;
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+
+}
+
+.block-results>p{
+    color: white;
+    padding: 35px;
+    font-size: 1.5em;
+}
+
+.counts{
+    display: flex;
+}
+
+.products{
+    padding: 0 20px 0 20px;
+    background: #F3F3F3;
+    border-radius: 20px 20px 0 0;
+}
+
+.comment-input{
+    width: 500px;
+    height: 50px;
+    background: #D8D8D8;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.tap{
+    color: #BEBEBE;
+    border: none;
+    background: #F3F3F3;
+    cursor: pointer;
+}
+
+.order-input-menu {
+    width: 360px; /* Set appropriate width */
+
+
+    padding: 20px; /* Padding inside the box */
+
+    text-align: center; /* Center align text */
+    background: #F3F3F3;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+
+.block-result p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.block-input {
+    font-size: 14px;
+    color: #a0a0a0; /* Light grey text */
+    margin-bottom: 10px;
+}
+
+.block-input input {
+    width: 338px; /* Make input fields take full width */
+    padding: 10px; /* Add some padding */
+    margin: 5px 0; /* Margin between input fields */
+    border: 1px solid #d9d9d9; /* Border around input fields */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f0f0f0; /* Light background for input */
+    color: #a0a0a0; /* Text color */
+    font-size: 14px;
+    outline: none; /* Remove blue border on focus */
+}
+
+.block-input input::placeholder {
+    color: #a0a0a0; /* Placeholder text color */
+}
+
+.block-input button {
+    width: 100%; /* Full-width button */
+    padding: 10px 0; /* Button padding */
+    background-color: #fbbc05; /* Bright yellow background */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Larger font for button */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Space above button */
+}
+
+.block-input button:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
 

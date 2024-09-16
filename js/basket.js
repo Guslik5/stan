@@ -8,13 +8,18 @@ if (productStorage.length) {
         console.log(el)
         const newCard = document.createElement("div")
         newCard.innerHTML = `
-            <h4>${productName}</h4>
-            <h4>${selectedValue}</h4>
-            <button class='minus-button' data-index="${index}">-</button>
-            <h4 class='quantity-display' data-index="${index}">${quantityProduct}</h4> 
-            <button class='plus-button' data-index="${index}">+</button> 
-            <br>
-            <button class='delete-button' data-index="${index}">Delete</button> 
+            <div class="basket-product-item">
+                    <img src="/images/icons/productBasket.svg" alt="productImg">
+                    <p class="product-name" style="color: #686868">${productName}</p>
+                    <div class="counts">
+                        <button class='minus-button tap' data-index="${index}">-</button>
+                        <h4 class='quantity-display' data-index="${index}" style="color: #686868">${quantityProduct}</h4> 
+                        <button class='plus-button tap' data-index="${index}">+</button> 
+                    </div>
+                    <h4 style="color: #686868">${selectedValue}</h4>
+                    <br>
+                    <button class='delete-button tap' data-index="${index}" style="color: #686868">✕</button> 
+            </div>
         `
         productBasket.appendChild(newCard)
 
