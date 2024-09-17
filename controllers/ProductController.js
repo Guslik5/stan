@@ -1,4 +1,4 @@
-const db = require("C:\\Users\\Гыук\\Desktop\\stan\\config\\db.js")
+const db = require("../config/db")
 
 class ProductController {
     async createProduct(req, res){

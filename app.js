@@ -1,5 +1,5 @@
 const express = require('express');
-const productRouter = require('C:\\Users\\Гыук\\Desktop\\stan\\routes\\productRoutes.js')
+const productRouter = require('./routes/productRoutes')
 const path = require("path"); //root/stan//routes//productRoutes.js
 // const http = require('http')
 // const fs = require('fs')
