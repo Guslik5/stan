@@ -6,9 +6,9 @@ footer{
     margin-top: 30px;
 }
 
-footer img{
+footer .logoStan{
     position: absolute;
-    bottom: 20%;
+    bottom: 25%;
     left: 47.5%;
 }
 
@@ -30,11 +30,18 @@ footer * {
 
 .footer_date{
     position: absolute;
-    bottom: 5%;
+    bottom: 15%;
     left: 47.5%;
     color: #667479;
 }
 
+.Directed-By{
+    display: flex;
+    position: absolute;
+    bottom: 2%;
+    left: 43.5%;
+    align-items: center;
+}
 
 
 
