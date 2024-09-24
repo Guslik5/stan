@@ -3,6 +3,10 @@
     font-size: 16px;
     color: #3C3C3C;
     margin: 0;
+
+}
+body {
+    overflow-x: hidden;
 }
 
 
@@ -421,7 +425,7 @@ div.arrowLeftQualification {
      height: 100%;
      border-width: .8vmin .8vmin 0 0;
      border-style: solid;
-     border-color: #fafafa;
+     border-color: #C6C1C1;
      transition: .2s ease;
      display: block;
      transform-origin: 100% 0;
@@ -437,7 +441,7 @@ div.arrowLeftQualification {
      height: 100%;
      border-width: 0 .8vmin 0 0;
      border-style: solid;
-     border-color: #fafafa;
+     border-color: #C6C1C1;
      transform-origin: 100% 0;
      transition:.2s ease;
  }
@@ -468,7 +472,7 @@ div.arrowLeftQualification {
      height: 100%;
      border-width: .8vmin .8vmin 0 0;
      border-style: solid;
-     border-color: white;
+     border-color: #C6C1C1;
      transition: .2s ease;
      display: block;
      transform-origin: 100% 0;
@@ -484,7 +488,7 @@ div.arrowLeftQualification {
      height: 100%;
      border-width: 0 .8vmin 0 0;
      border-style: solid;
-     border-color: white;
+     border-color: #C6C1C1;
      transform-origin: 100% 0;
      transition:.2s ease;
  }
@@ -499,4 +503,121 @@ div.arrowLeftQualification {
      transform: scale(.8);
 
  }
+}
+
+
+
+.slider-certificate{
+    width: 550px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; /* Центрирование слайдера */
+}
+
+
+.slider-certificate .slick-prev{
+    position: absolute;
+    left: 0;
+    z-index: 10;
+}
+
+.slider-certificate .slick-next{
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+.slider-certificate .slick-next {
+    width: 3vmin;
+    height: 3vmin;
+    position: absolute;
+    right: -5%;
+    top: 50%;
+    transform: rotate(45deg);
+
+    &::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        border-width: .8vmin .8vmin 0 0;
+        border-style: solid;
+        border-color: #3C3C3C;
+        transition: .2s ease;
+        display: block;
+        transform-origin: 100% 0;
+    }
+
+
+    &:after {
+        content: '';
+        float: left;
+        position: relative;
+        top: -100%;
+        width: 100%;
+        height: 100%;
+        border-width: 0 .8vmin 0 0;
+        border-style: solid;
+        border-color: #3C3C3C;
+        transform-origin: 100% 0;
+        transition:.2s ease;
+    }
+
+    &:hover::after {
+        transform: rotate(45deg);
+        border-color: #E1113C;
+        height: 120%;
+    }
+    &:hover::before {
+        border-color: #E1113C;
+        transform: scale(.8);
+
+    }
+}
+
+.slider-certificate .slick-prev {
+    width: 3vmin;
+    height: 3vmin;
+    position: absolute;
+    left: -5%;
+    top: 50%;
+    transform: rotate(-135deg);
+
+    &::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        border-width: .8vmin .8vmin 0 0;
+        border-style: solid;
+        border-color: #3C3C3C;
+        transition: .2s ease;
+        display: block;
+        transform-origin: 100% 0;
+    }
+
+
+    &:after {
+        content: '';
+        float: left;
+        position: relative;
+        top: -100%;
+        width: 100%;
+        height: 100%;
+        border-width: 0 .8vmin 0 0;
+        border-style: solid;
+        border-color: #3C3C3C;
+        transform-origin: 100% 0;
+        transition:.2s ease;
+    }
+
+    &:hover::after {
+        transform: rotate(45deg);
+        border-color: #E1113C;
+        height: 120%;
+    }
+    &:hover::before {
+        border-color: #E1113C;
+        transform: scale(.8);
+
+    }
 }
