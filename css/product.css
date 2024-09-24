@@ -12,6 +12,8 @@
     min-width: 250px;
 }
 
+
+
 .product-cart_block-text-name{
     padding: 10px 0;
     font-size: 2em;
@@ -48,25 +50,36 @@
 }
 
 #save-button{
-    background-image: url("/images/icons/plus.svg") ;
-    background-repeat: no-repeat;
+    background: #D9D9D9;
     width: 35px;
     height: 35px;
     border-radius: 10px;
     border: none;
     padding: 0;
     cursor: pointer;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .input-menu{
     display: flex;
     margin: 10px;
-    justify-content: space-around;
+    justify-content: right;
     width: 70%;
+}
 
+button{
+    margin: 0 10px;
+}
+
+#count-select{
+    margin: 0 10px;
 }
 
 #basket-button{
+    background-color: #B52323;
     background-image: url("/images/icons/basket.svg") ;
     background-repeat: no-repeat;
     border: none;
@@ -79,10 +92,6 @@
 .two-buttons{
     display: flex;
     flex-direction: column;
-}
-
-#save-button{
-    margin-bottom: 10px;
 }
 
 #order-button{

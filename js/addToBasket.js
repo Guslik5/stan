@@ -25,6 +25,7 @@ addToCartButton.addEventListener("click", () =>{
     localStorage.setItem("cart", JSON.stringify(product));
     console.log(selectedValue)
     console.log(selectElem)
+    alert("Товар добавлен в корзину")
     // localStorage.clear()
 })
 
