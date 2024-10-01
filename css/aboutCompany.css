@@ -117,6 +117,23 @@
     color: white;
 }
 
+@media (max-width: 1000px) {
+    .blockImage{
+        width: 400px;
+    }
+    .blockSince2015{
+        left: -400px;
+    }
+    .blockImage_image{
+        top: 5px;
+        width: 400px;
+        height: 400px;
+    }
+    .blockActivity_list-item > .hidden{
+        display: none;
+    }
+}
+
 .blockSince2015{
     width: 576px;
     height: 433px;

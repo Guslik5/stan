@@ -195,6 +195,21 @@ ul{
     position: relative;
 }
 
+@media (max-width: 1000px) {
+    .photo{
+        display: none;
+    }
+    .bottomTextQuality{
+        display: none;
+    }
+    .buttonQuality{
+        display: none;
+    }
+    .contacts > .BigText{
+        width: 400px;
+    }
+}
+
 .bigText{
     position: absolute;
     top: 11%;
@@ -208,7 +223,7 @@ ul{
     position: absolute;
     top: 25%;
     left: 17%;
-    width: 1000px;
+    width: 80%;
     background-color: #B52323;
     border-radius: 30px
 

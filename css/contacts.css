@@ -192,9 +192,30 @@
     margin-left: 49.5%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .line{
         display: none;
+    }
+    .map{
+        width: 350px;
+    }
+    .containerMapAndInfo{
+        width: 850px;
+    }
+    .main{
+        font-size: 1.2em;
+    }
+    .container.right {
+        width: 200px;
+    }
+    .container.left {
+        width: 200px;
+    }
+    .backgroundGray{
+        background: none;
+    }
+    .workTime{
+        border-radius: 30px;
     }
 }
 
