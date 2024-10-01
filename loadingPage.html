@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>СТАН</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden; /* Скрываем скроллинг, пока загружается */
+    }
+
+    .loading-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff; /* Фон для видео */
+      z-index: 100; /* Устанавливаем слой поверх всего */
+    }
+
+    video {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+<div class="loading-screen">
+  <video autoplay loop muted>
+    <source src="/video/loading.mp4" type="video/mp4">
+    Ваш браузер не поддерживает воспроизведение видео.
+  </video>
+</div>
+
+<!-- Основной контент (будет скрыт, пока видео не закончится) -->
+<div id="main-content">
+  <h1>Привет, мир!</h1>
+</div>
+
+<script>
+  setTimeout(function() {
+    window.location.href = "main.html";
+  }, 5000); // 5000 миллисекунд = 5 секунд
+</script>
+</body>
+</html>
