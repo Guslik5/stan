@@ -400,10 +400,12 @@ div.arrowLeftQualification {
     align-items: center;
     padding: 20px;
 }
-.blockContactsElem p{
+.blockContactsElem p,
+.blockContactsElem a{
     padding: 0 30px 0 30px;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     color: white;
+    text-decoration: none;
 }
 
 
@@ -635,4 +637,12 @@ div.arrowLeftQualification {
         transform: scale(.8);
 
     }
+}
+
+.body_hide {
+    opacity: 0;
+    transition: .9s opacity ease-in-out;
+}
+.body_visible {
+    opacity: 1;
 }
