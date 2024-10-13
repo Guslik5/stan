@@ -15,7 +15,8 @@ footer .logoStan{
 .footer_info{
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
+    padding-top: 70px;
+
 }
 
 footer * {
