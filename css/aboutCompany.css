@@ -110,14 +110,19 @@
     bottom: 100px;
     width: 65%;
     margin: 0 auto;
+    z-index: 10;
 }
 
 .blockImage_Text p{
     margin-bottom: 30px;
     color: white;
 }
+.blockImage_Text > .heading-p{
+    margin-left: 120px;
+    color: white;
+}
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     .blockImage{
         width: 400px;
     }

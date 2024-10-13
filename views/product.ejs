@@ -42,23 +42,23 @@
                 <%= product.description %>
             </div>
             <div class="input-menu">
-                <label for="count-select"></label>
-                <select name="count-product" id="count-select">
-                    <option disabled selected value>Сколько</option>
-                    <option value="800г">800г</option>
-                    <option value="10кг">10кг</option>
-                    <option value="180кг">180кг</option>
-                </select>
                 <div class="two-buttons">
                     <button id="save-button">+</button>
-                    <button id="basket-button" onclick="window.location = '/basket.html'"></button>
                 </div>
 
-                <button id="order-button" onclick="window.location = '/basket.html'">Заказать</button>
+                <label for="count-select"></label>
+                <div class="template">
+                    <select name="count-product" id="count-select">
+                        <option disabled selected value>Сколько</option>
+                        <option value="800г">800г</option>
+                        <option value="10кг">10кг</option>
+                        <option value="180кг">180кг</option>
+                    </select>
+                    <button id="order-button" onclick="window.location = '/basket.html'">Заказать</button>
+                </div>
+
             </div>
-
         </div>
-
     </div>
 
     <div class="contacts">
