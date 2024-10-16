@@ -240,7 +240,7 @@ input:checked + label span.Lub {
 
 .lubricants_STAN{
     grid-area: j;
-    background-color: rgb(181, 35, 35);;
+    background: url("../images/ProductCategoryLubricants/lubricants_STAN.png")
 }
 
 .lubricants_PRE-PRODUCTION{
@@ -311,7 +311,7 @@ input:checked + label span.Lub {
 
 .oils_STAN{
     grid-area: h;
-        background: url("../images/ProductCategoryOils/oils_STAN.png");
+    background: url("../images/ProductCategoryOils/oils_STAN.png");
 }
 
 

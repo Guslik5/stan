@@ -16,11 +16,13 @@ footer .logoStan{
     display: flex;
     justify-content: space-around;
     padding-top: 70px;
+    text-align: center;
 
 }
 
 footer * {
     color: white;
+
 }
 
 .main-footer{
@@ -40,7 +42,7 @@ footer * {
     display: flex;
     position: absolute;
     bottom: 2%;
-    left: 43.5%;
+    left: 44.5%;
     align-items: center;
 }
 

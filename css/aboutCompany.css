@@ -118,7 +118,7 @@
     color: white;
 }
 .blockImage_Text > .heading-p{
-    margin-left: 120px;
+
     color: white;
 }
 
@@ -136,6 +136,9 @@
     }
     .blockActivity_list-item > .hidden{
         display: none;
+    }
+    .blockImage_Text > .heading-p{
+        margin-left: 120px;
     }
 }
 

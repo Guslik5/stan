@@ -71,7 +71,7 @@ ul{
     position: absolute;
     right: 0;
     width: 150px;
-    bottom: 45px;
+    bottom: 10%;
     left: 45px;
     background-color: #FAC031;
     border: none;
@@ -80,6 +80,12 @@ ul{
     font-size: 18px;
     padding: 5px 20px;
     cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .flexForBanner button{
+        bottom: 28%;
+    }
 }
 
 .flexForPartners{
@@ -91,10 +97,11 @@ ul{
 
 .blockListPartners{
     position: relative;
-    width: 875px;
+    width: 820px;
     background-color: #F3F3F3;
     border-radius: 20px 20px 20px 20px / 200% 200%;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin: 0 5px;
 
 }
 
@@ -102,7 +109,7 @@ ul{
     display: inline-flex;
     height: 130px;
     position: relative;
-    padding: 10px 40px 50px;
+    padding: 10px 73px 50px;
 }
 
 .listPartners li{
@@ -190,21 +197,12 @@ ul{
  }
 }
 
-.productQualityBlock{
-    margin: 40px 0;
-    position: relative;
-}
+
 
 @media (max-width: 1000px) {
-    .photo{
-        display: none;
-    }
-    .bottomTextQuality{
-        display: none;
-    }
-    .buttonQuality{
-        display: none;
-    }
+
+
+
     .contacts > .BigText{
         width: 400px;
     }
@@ -229,34 +227,14 @@ ul{
 
 }
 
-.text{
-    width: 575px;
-}
-
-.elemText p{
-    font-size: 20px;
-}
-
-.elemText{
-    margin: 30px;
-}
 
 .active{
     color: #E1113C;
 }
 
-.photo{
-    position: absolute;
-    top: -40px;
-    right: -5px;
-}
 
-.bottomTextQuality{
-    position: absolute;
-    left: 50%;
-    bottom: 10%;
-    color: #FFFFFF;
-}
+
+
 
 .flexForBanner button a{
     text-decoration: none;
@@ -645,4 +623,79 @@ div.arrowLeftQualification {
 }
 .body_visible {
     opacity: 1;
+}
+
+.productQualityBlock{
+    margin: 40px 0;
+    position: relative;
+}
+
+.blockImageAndText{
+    width: 70%;
+    height: 40%;
+    background-color: #B52323;
+    position: absolute;
+    top: 25%;
+    left: 16%;
+    border-radius: 30px;
+}
+.text{
+    width: 490px;
+}
+
+.elemText p{
+    font-size: 1vw;
+}
+.elemTextTwo p{
+    font-size: 1vw;
+}
+
+.elemText{
+    margin: 3vw;
+}
+
+.elemTextTwo{
+    margin: 2vw;
+}
+
+.photo{
+    position: absolute;
+    top: -25%;
+    right: -5%;
+    width: 46%;
+    height: 46%;
+}
+
+.photo_hidden{
+    max-width: 100%;
+    height: auto;
+}
+
+.buttonSupport{
+    position: absolute;
+    width: 11%;
+    height: 8%;
+    font-size: 1vw;
+    bottom: -20%;
+    left: 4%;
+    border-radius: 7px;
+    background-color: #B52323;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.buttonSupport:hover{
+    background-color: #901818;
+}
+
+
+
+
+.bottomTextQuality{
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    color: #FFFFFF;
 }
