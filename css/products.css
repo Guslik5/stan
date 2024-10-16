@@ -159,6 +159,8 @@ input:checked + label span.Lub {
         "h h h"
 }
 
+
+
 .lubricants>button,
 .oils>button{
     width: 100%;
@@ -196,61 +198,73 @@ input:checked + label span.Lub {
 .lubricants_general-purpose{
     grid-area: a;
     background: url("../images/ProductCategoryLubricants/lubricants_general-purpose.png") no-repeat;
+    background-size: contain;
 }
 
 .lubricants_industrial{
     grid-area: b;
     background: url("../images/ProductCategoryLubricants/lubricants_industrial.png") no-repeat;
+    background-size: contain;
 }
 
 .lubricants_railway{
     grid-area: c;
     background: url("../images/ProductCategoryLubricants/lubricants_railway.png") no-repeat;
+    background-size: contain;
 }
 
 .lubricants_HEAT-RESISTANT{
     grid-area: d;
     background: url("../images/ProductCategoryLubricants/lubricants_HEAT-RESISTANT.png") no-repeat;
+    background-size: contain;
 }
 
 .lubricants_CONSERVATION{
     grid-area: e;
     background: url("../images/ProductCategoryLubricants/lubricants_CONSERVATION.png");
+    background-size: contain;
 }
 
 .lubricants_THREADED-SEALING{
     grid-area: f;
     background: url("../images/ProductCategoryLubricants/lubricants_THREADED-SEALING.png");
+    background-size: contain;
 }
 
 .lubricants_LOW-TEMPERATURE{
     grid-area: g;
     background: url("../images/ProductCategoryLubricants/lubricants_LOW-TEMPERATURE.png");
+    background-size: contain;
 }
 
 .lubricants_Electrically-conductive{
     grid-area: h;
     background: url("../images/ProductCategoryLubricants/lubricants_Electrically-conductive.png");
+    background-size: contain;
 }
 
 .lubricants_SPECIAL{
     grid-area: i;
     background: url("../images/ProductCategoryLubricants/lubricants_SPECIAL.png");
+    background-size: contain;
 }
 
 .lubricants_STAN{
     grid-area: j;
-    background: url("../images/ProductCategoryLubricants/lubricants_STAN.png")
+    background: url("../images/ProductCategoryLubricants/lubricants_STAN.png");
+    background-size: contain;
 }
 
 .lubricants_PRE-PRODUCTION{
     grid-area: k;
     background: url("../images/ProductCategoryLubricants/lubricants_PRE-PRODUCTION.png");
+    background-size: contain;
 }
 
 .lubricants_GEARBOXES{
     grid-area: l;
     background: url("../images/ProductCategoryLubricants/lubricants_GEARBOXES.png");
+    background-size: contain;
 }
 
 .lubricants_INSTRUMENT-PANELS{
@@ -262,60 +276,105 @@ input:checked + label span.Lub {
     grid-area: n;
     background-color: #949494;
     background-image: url("../images/ProductCategoryLubricants/lubricants_marine.png");
+    background-size: contain;
 }
 
 .lubricants_Antifriction-multi-purpose{
     grid-area: o;
     background: url("../images/ProductCategoryLubricants/lubricants_Antifriction-multi-purpose.png");
+    background-size: contain;
 }
 
 .lubricants_CARS{
     grid-area: p;
     background: url("../images/ProductCategoryLubricants/lubricants_CARS.png");
+    background-size: contain;
 }
 
 .oils_industrial{
     grid-area: a;
-        background: url("../images/ProductCategoryOils/oils_industrial.png");
+    background: url("../images/ProductCategoryOils/oils_industrial.png");
+    background-size: contain; /* Картинка будет масштабироваться, чтобы поместиться в блок */
 }
 
 .oils_Motor{
     grid-area: b;
         background: url("../images/ProductCategoryOils/oils_Motor.png");
+    background-size: contain;
 }
 
 .oils_AXIAL{
     grid-area: c;
         background: url("../images/ProductCategoryOils/oils_AXIAL.png");
+    background-size: contain;
 }
 
 .oils_HYDRAULIC{
     grid-area: d;
         background: url("../images/ProductCategoryOils/oils_HYDRAULIC.png");
+    background-size: contain;
 }
 
 .oils_TURBINE{
     grid-area: e;
         background: url("../images/ProductCategoryOils/oils_TURBINE.png");
+    background-size: contain;
 }
 
 .oils_COLD{
     grid-area: f;
         background: url("../images/ProductCategoryOils/oils_COLD.png");
+    background-size: contain;
 }
 
 .oils_Transmission{
     grid-area: g;
         background: url("../images/ProductCategoryOils/oils_Transmission.png");
+    background-size: contain;
 }
 
 .oils_STAN{
     grid-area: h;
     background: url("../images/ProductCategoryOils/oils_STAN.png");
+    background-size: contain;
 }
 
 
+@media (max-width: 1100px) {
+    .gridOil{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 201px 201px 201px 201px;
+        grid-template-areas:
+        "a b c"
+        "a d  e"
+        "f g e"
+        "h h h"
+    }
 
+    .gridLubricants{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 201px 201px 201px 201px 201px 201px;
+        grid-template-areas:
+        "a b c"
+        "a d  e"
+        "f g e"
+        "h i j"
+        "k l m"
+        "n o p";
+    }
+
+    .lubricants>p,
+    .oils>p{
+        position: absolute;
+        font-size: 1em;
+        top: 30px;
+        left: 30px;
+    }
+}
 
 
 
