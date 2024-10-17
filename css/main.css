@@ -78,6 +78,7 @@ ul{
     color: #FFFFFF;
     border-radius: 20px 20px 20px 20px / 200% 200%;
     font-size: 18px;
+    font-weight: bold;
     padding: 5px 20px;
     cursor: pointer;
 }
