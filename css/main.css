@@ -1,5 +1,5 @@
 * {
-    font-family: "Roboto Light";
+    font-family: "Segoe UI", Arial, sans-serif;
     font-size: 16px;
     color: #3C3C3C;
     margin: 0;
@@ -639,19 +639,17 @@ div.arrowLeftQualification {
     left: 16%;
     border-radius: 30px;
 }
-.text{
-    width: 490px;
-}
+
 
 .elemText p{
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 .elemTextTwo p{
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 
 .elemText{
-    margin: 3vw;
+    margin: 5vw 3.5vw;
 }
 
 .elemTextTwo{
@@ -673,11 +671,10 @@ div.arrowLeftQualification {
 
 .buttonSupport{
     position: absolute;
-    width: 11%;
-    height: 8%;
+    width: 14%;
+    height: 11%;
     font-size: 1vw;
     bottom: -20%;
-    left: 4%;
     border-radius: 7px;
     background-color: #B52323;
     border: none;
@@ -696,6 +693,6 @@ div.arrowLeftQualification {
 .bottomTextQuality{
     position: absolute;
     left: 50%;
-    bottom: 8%;
+    bottom: 5%;
     color: #FFFFFF;
 }

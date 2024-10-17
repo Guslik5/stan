@@ -1,23 +1,30 @@
+
+
 footer{
-    position: relative;
-    width: 100%;
-    height: 300px;
-    background-color: #585858;
-    margin-top: 30px;
-}
-
-footer .logoStan{
-    position: absolute;
-    bottom: 25%;
-    left: 47.5%;
-}
-
-.footer_info{
     display: flex;
-    justify-content: space-around;
-    padding-top: 70px;
-    text-align: center;
+    justify-content: center;
+    background-color: #585858;
+    height: 300px;
+}
 
+.BoxFooter{
+    align-content: center;
+}
+
+.BoxFooter *{
+    margin-bottom: 10px;
+}
+
+.logoStan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 212px;
+}
+
+.footer_info p{
+    display: flex;
+    justify-content: center;
 }
 
 footer * {
@@ -25,24 +32,15 @@ footer * {
 
 }
 
-.main-footer{
-    color: white;
-    font-size: 1.2rem;
-    margin-bottom: 5px;
-}
-
 .footer_date{
-    position: absolute;
-    bottom: 15%;
-    left: 47.5%;
+    display: flex;
+    justify-content: center;
     color: #667479;
 }
 
 .Directed-By{
     display: flex;
-    position: absolute;
-    bottom: 2%;
-    left: 44.5%;
+    justify-content: center;
     align-items: center;
 }
 
