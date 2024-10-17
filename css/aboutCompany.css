@@ -38,6 +38,7 @@
 .blockActivity_list{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .blockActivity_list-item{
@@ -51,6 +52,14 @@
 
 .blockActivity_list-item:first-child {
     border:none;
+}
+
+@media (max-width: 1697px) {
+    .blockActivity_list-item{
+
+        border: none;
+
+    }
 }
 
 
@@ -72,7 +81,7 @@
 
 .blockPurpose{
     width: 80%;
-    height: 290px;
+    height: 300px;
     background: #EEEEEE;
     margin:  50px auto 150px;
     border-radius: 15px;
@@ -88,7 +97,7 @@
 .blockPurpose_secondary{
 
     margin-left: 150px;
-    padding: 5px 30px;
+    padding: 5px 30px 0;
     border-left: 1px solid #B52323;
 }
 
