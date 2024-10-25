@@ -50,16 +50,3 @@
     color: #686868;
 }
 
-footer{
-    position: relative;
-    width: 100%;
-    height: 300px;
-    background-color: #585858;
-    margin-top: 30px;
-}
-
-footer img{
-    position: absolute;
-    bottom: 10%;
-    left: 47.5%;
-}
