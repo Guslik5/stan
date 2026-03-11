@@ -1,0 +1,53 @@
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #585858;
+    height: 300px;
+}
+
+.BoxFooter{
+    align-content: center;
+}
+
+.BoxFooter *{
+    margin-bottom: 10px;
+}
+
+.BoxFooter .logoStan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 212px;
+    height: 80px;
+
+}
+
+
+
+.footer_info p{
+    display: flex;
+    justify-content: center;
+}
+
+footer * {
+    color: white;
+
+}
+
+.footer_date{
+    display: flex;
+    justify-content: center;
+    color: #667479;
+}
+
+.Directed-By{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

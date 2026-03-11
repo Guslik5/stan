@@ -1,0 +1,31 @@
+{
+  "name": "stan",
+  "version": "10.7.0",
+  "description": "stan project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guslik5/stan.git"
+  },
+  "author": "Guslik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guslik5/stan/issues"
+  },
+  "homepage": "https://github.com/Guslik5/stan#readme",
+  "dependencies": {
+    "": "^
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
